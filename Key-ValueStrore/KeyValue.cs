@@ -8,6 +8,7 @@ namespace Key_ValueStrore
 {
     struct KeyValue
     {
-
+        public string key { get; }
+        public object value { get; }
     }
 }
