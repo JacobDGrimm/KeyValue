@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Key_ValueStrore
 {
-    struct KeyValue
+    class MyDictionary
     {
-        public string key { get; private set; }
-        public object value { get; private set; }
     }
 }
