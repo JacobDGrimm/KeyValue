@@ -8,7 +8,13 @@ namespace Key_ValueStrore
 {
     struct KeyValue
     {
-        public string key { get; private set; }
-        public object value { get; private set; }
+        public KeyVaule(string key, object value)
+        {
+            this.key = key;
+            this.value = value;
+        }
+
+        public readonly string key;
+        public readonly object value;
     }
 }

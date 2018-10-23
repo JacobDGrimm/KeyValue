@@ -9,6 +9,6 @@ namespace Key_ValueStrore
     class MyDictionary
     {
         KeyValue[] arr = new KeyValue[2];
-        int index;
+        
     }
 }
