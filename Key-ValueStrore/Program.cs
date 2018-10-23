@@ -22,7 +22,7 @@ namespace Key_ValueStrore
                 }
                 d["Cats"] = 42;
                 d["Dogs"] = 17;
-               
+            Console.WriteLine($"{(int)d["Cats"]}, {(int)d["Dogs"]}");
         }
     }
 }

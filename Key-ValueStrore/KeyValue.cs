@@ -8,7 +8,7 @@ namespace Key_ValueStrore
 {
     struct KeyValue
     {
-        public KeyVaule(string key, object value)
+        public KeyValue(string key, object value)
         {
             this.key = key;
             this.value = value;
